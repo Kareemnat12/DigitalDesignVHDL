@@ -1,0 +1,451 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/karee/VHDLProjects/lab5
+Ealu
+Z0 w1713200685
+!i122 34
+Z1 dC:/Users/karee/VHDLProjects/AllHomeWork
+Z2 8ALU.vhd
+Z3 FALU.vhd
+l0
+L1 1
+VhJR9[REzjFjb``@317:9S2
+!s100 ;kU5oDVPKezo`FGSNz6dA0
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1713200889
+!i10b 1
+Z6 !s108 1713200889.000000
+Z7 !s90 -reportprogress|300|ALU.vhd|
+Z8 !s107 ALU.vhd|
+!i113 1
+Z9 tExplicit 1 CvgOpt 0
+Aalu_arc
+DEx4 work 3 alu 0 22 hJR9[REzjFjb``@317:9S2
+!i122 34
+l19
+L10 40
+Vd<RoEdi3=Lhj^FXd[H_613
+!s100 YaM0S:VMfzS=1H8o2H0Dz3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+Ealuuu
+Z10 w1713201023
+!i122 36
+R1
+Z11 8aluuu.vhd
+Z12 Faluuu.vhd
+l0
+L2 1
+Vd6CHDa^JBl6`[FR[bP]a=2
+!s100 =4S@Y1EhhKW@cdkPJehHN0
+R4
+32
+Z13 !s110 1713201025
+!i10b 1
+Z14 !s108 1713201025.000000
+Z15 !s90 -reportprogress|300|aluuu.vhd|
+Z16 !s107 aluuu.vhd|
+!i113 1
+R9
+Aaluuu_arc
+DEx4 work 5 aluuu 0 22 d6CHDa^JBl6`[FR[bP]a=2
+!i122 36
+l10
+L8 8
+VV9Cn5UEN5X5U6k3gcVa?13
+!s100 bG`@oU6QRSA<oR7MPj@XL2
+R4
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R9
+Ebin_to_bcd
+Z17 w1713255384
+Z18 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z19 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z20 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 83
+R1
+Z21 8BCD.vhd
+Z22 FBCD.vhd
+l0
+L5 1
+VZ^0XW5fT9lNXK?9QFzZjJ0
+!s100 bo;WDEdbB]?:mN8AC@G[g3
+R4
+32
+Z23 !s110 1713255388
+!i10b 1
+Z24 !s108 1713255388.000000
+Z25 !s90 -reportprogress|300|BCD.vhd|
+Z26 !s107 BCD.vhd|
+!i113 1
+R9
+Abin_to_bcd_arc
+R18
+R19
+R20
+DEx4 work 10 bin_to_bcd 0 22 Z^0XW5fT9lNXK?9QFzZjJ0
+!i122 83
+l12
+L10 50
+VTeG?DV2^dM8mG=za?8Jom2
+!s100 K[j`a]K<1LVdE6Y`iT?_L1
+R4
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R9
+Ecntr_sll_load
+Z27 w1713354634
+Z28 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z29 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R19
+Z30 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R1
+Z31 8counter2.vhd
+Z32 Fcounter2.vhd
+l0
+L11
+V5VEH9=a36Rai7lW`lCWh_1
+!s100 I;QHoO@OYeAERd`K@VmMH2
+Z33 OV;C;10.5b;63
+32
+Z34 !s110 1713354636
+!i10b 1
+Z35 !s108 1713354636.000000
+Z36 !s90 -reportprogress|300|counter2.vhd|
+Z37 !s107 counter2.vhd|
+!i113 1
+R9
+Acntr_sll_load_arc
+R28
+R29
+R19
+R30
+DEx4 work 13 cntr_sll_load 0 22 5VEH9=a36Rai7lW`lCWh_1
+l20
+L18
+Vic?M@R8U63<`WjjHDoml[3
+!s100 SOclDJRjGiMbb_:kR`1`S3
+R33
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R9
+Ecounter
+Z38 w1713253970
+R19
+R20
+!i122 80
+R1
+Z39 8counter.vhd
+Z40 Fcounter.vhd
+l0
+L4 1
+VC07zWX2@_3m;:Fa0kfG1V2
+!s100 jkXo_ZHRn<o5>aHA16k2H2
+R4
+32
+Z41 !s110 1713254439
+!i10b 1
+Z42 !s108 1713254439.000000
+Z43 !s90 -reportprogress|300|counter.vhd|
+Z44 !s107 counter.vhd|
+!i113 1
+R9
+Acounter_arc
+R19
+R20
+DEx4 work 7 counter 0 22 C07zWX2@_3m;:Fa0kfG1V2
+!i122 80
+l12
+L11 23
+VFRURfTkDmNhhN^1;<LY?d0
+!s100 XeUMYmfoEI<4V`B[SZ6Hk2
+R4
+32
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R9
+Ecounter2
+Z45 w1713355127
+R28
+R29
+R19
+R30
+R1
+R31
+R32
+l0
+L6
+VcIoGhZQUnd[fS`kc3EDG@2
+!s100 ;ehdh:Rk=[R3_LOHk;Mg@2
+R33
+32
+Z46 !s110 1713355131
+!i10b 1
+Z47 !s108 1713355131.000000
+R36
+R37
+!i113 1
+R9
+Acounter2_arc
+R28
+R29
+R19
+R30
+Z48 DEx4 work 8 counter2 0 22 cIoGhZQUnd[fS`kc3EDG@2
+l15
+L13
+V_3AQ>gmA<O2>RH<g6;O?33
+!s100 9l:nQ6Qzo0K2b97>>Sl8B2
+R33
+32
+R46
+!i10b 1
+R47
+R36
+R37
+!i113 1
+R9
+Edemux
+Z49 w1713185828
+!i122 19
+R1
+Z50 8mux.vhd
+Z51 Fmux.vhd
+l0
+L9 1
+VIfQk>AR4]HfXa<V7Y?H]k3
+!s100 3EYzV6:2a[W9gjcZ^k[3K2
+R4
+32
+Z52 !s110 1713195181
+!i10b 1
+Z53 !s108 1713195181.000000
+Z54 !s90 -reportprogress|300|mux.vhd|
+Z55 !s107 mux.vhd|
+!i113 1
+R9
+Ademux_rc
+DEx4 work 5 demux 0 22 IfQk>AR4]HfXa<V7Y?H]k3
+!i122 19
+l32
+L30 9
+V688:EKcS>iXBOWFTYT@O^3
+!s100 l:<DokXY0[a2`6Ag0m4Zj0
+R4
+32
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R9
+Ej_k_ff
+Z56 w1713209993
+R19
+R30
+R1
+Z57 8J_K_FF.vhd
+Z58 FJ_K_FF.vhd
+l0
+L5
+VWR4i^:hm2:j]::HmY5kk42
+!s100 N:z=QnEP;ea;ez]KCgZ>Y0
+R33
+32
+Z59 !s110 1713350543
+!i10b 1
+Z60 !s108 1713350542.000000
+Z61 !s90 -reportprogress|300|J_K_FF.vhd|
+Z62 !s107 J_K_FF.vhd|
+!i113 1
+R9
+Aj_k_ff_arc
+R19
+R30
+DEx4 work 6 j_k_ff 0 22 WR4i^:hm2:j]::HmY5kk42
+l11
+L10
+V:4Q2<d4[QmPmll[@ljJ<V0
+!s100 WSYXe9N:lTIJ=U5^?Z6_S1
+R33
+32
+R59
+!i10b 1
+R60
+R61
+R62
+!i113 1
+R9
+Emux
+R49
+!i122 19
+R1
+R50
+R51
+l0
+L1 1
+VD?7PLd80OUBSU0eO;UM@;3
+!s100 5Ok9;`lYI=34f>R=Y1[Lz3
+R4
+32
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R9
+Amux_rc
+DEx4 work 3 mux 0 22 D?7PLd80OUBSU0eO;UM@;3
+!i122 19
+l20
+L18 9
+VDbGe7=SYo<cgG[iN6jElb1
+!s100 fH7c1@eKLmM^WYY1`B?`D3
+R4
+32
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R9
+Amux_arc
+R19
+R20
+DEx4 work 3 mux 0 22 ZjeAgE1nz=<J=nQ1CfXM73
+!i122 13
+l13
+L12 9
+VmB=HCk@Y4T:=iAI982kgM0
+!s100 bGg3Lm6K2llYhBHF<IiAi1
+R4
+32
+!s110 1713184885
+!i10b 1
+!s108 1713184885.000000
+!s90 -reportprogress|300|Mux.vhd|
+!s107 Mux.vhd|
+!i113 1
+R9
+FMux.vhd
+w1713184876
+8Mux.vhd
+Esego
+Z63 w1713263886
+R19
+R20
+!i122 105
+R1
+Z64 8C:/Users/karee/VHDLProjects/AllHomeWork/SEG7.vhd
+Z65 FC:/Users/karee/VHDLProjects/AllHomeWork/SEG7.vhd
+l0
+L4 1
+V8`W>WIdN7Q;iz^E7`cBCa3
+!s100 zkTi@XO8fCPi^<JONffGb1
+R4
+32
+Z66 !s110 1713264341
+!i10b 1
+Z67 !s108 1713264341.000000
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/karee/VHDLProjects/AllHomeWork/SEG7.vhd|
+Z69 !s107 C:/Users/karee/VHDLProjects/AllHomeWork/SEG7.vhd|
+!i113 1
+Z70 o-work work -2002 -explicit
+R9
+Abehaviour
+R19
+R20
+DEx4 work 4 sego 0 22 8`W>WIdN7Q;iz^E7`cBCa3
+!i122 105
+l11
+L10 21
+VZgPIBR0];7WQ`7;_UUcko1
+!s100 bU1:^0LB6zT4M1JjkKTDz3
+R4
+32
+R66
+!i10b 1
+R67
+R68
+R69
+!i113 1
+R70
+R9
+Etop_level
+Z71 w1713263954
+R19
+R20
+!i122 106
+R1
+Z72 8Top_LEVEL_COUNTER.vhd
+Z73 FTop_LEVEL_COUNTER.vhd
+l0
+L5 1
+V@4KE8hJC:PAdTFTIC1oTI1
+!s100 =nkNT5]]KEfW`ALRVET`01
+R4
+32
+Z74 !s110 1713264359
+!i10b 1
+Z75 !s108 1713264359.000000
+Z76 !s90 -reportprogress|300|Top_LEVEL_COUNTER.vhd|
+Z77 !s107 Top_LEVEL_COUNTER.vhd|
+!i113 1
+R9
+Atop_level_arc
+R19
+R20
+DEx4 work 9 top_level 0 22 @4KE8hJC:PAdTFTIC1oTI1
+!i122 106
+l38
+L11 38
+V5Kd8ImaVPJA]RBl:Ul7Ba2
+!s100 _`04M1Co<l7:nHl8[HT2f0
+R4
+32
+R74
+!i10b 1
+R75
+R76
+R77
+!i113 1
+R9

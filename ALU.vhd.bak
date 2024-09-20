@@ -1,0 +1,58 @@
+entity ALU is 
+	port ( 	A, B : in integer  range 0 to 15;
+			Op : in bit_vector (1 downto 0);
+			Qout : out integer  range 0 to 15;
+			z,c : out bit );
+
+
+end entity ALU ;
+
+architecture ALU_Arc of ALU is 
+	signal add : integer range 0 to 30;	
+	signal subb : integer range 0 to 15;
+	signal mult : integer range 0 to 15;
+	signal div : integer range 0 to 15;
+	signal ca , cs,cm,cd : bit ;
+	signal q : integer range 0 to 15;
+
+
+		begin
+----------------------ADDITION--------------------------
+			add <= (A+B) mod 16 ;
+				ca <= '1' when add>= 16 else '0';
+----------------------SUBTRACT--------------------------
+
+			subb <= abs(A-B) when op ="01";
+				cs <=  '1' when B>A else '0';
+----------------------MULTIPACTION--------------------------
+
+			mult<= 0 when (A*B)>16 else (A*B);
+				cm <= '1' when A*B >16 else '0';
+
+----------------------DIVISION--------------------------
+			div <= 0 when B=0 else (A/B); 
+				cd <=  '0' when B>0 else '1';
+				
+				
+		q<= add  when op ="00"  else 
+				subb when op ="01" else 
+				mult when op = "10" else  div ;
+				 
+				 
+				 
+		c<= ca when op ="00"  else 
+		    cs when op ="01" else 
+		    cm when op = "10" else  cd ;
+				
+		z <= '1' when q = 0 else '0';
+qout <=q;
+			end architecture ALU_Arc;
+			
+			
+			
+			
+			
+			
+			--output <= input1 when mux_sel = "00" else
+          ------input2 when mux_sel = "01" else
+         ------ (others => '0');
